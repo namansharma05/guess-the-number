@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <button class="btn again">Again!</button>
+        <p class="para">(between 1 and 20)</p>
+        <h1>Guess My Number!</h1>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="typehere" id="inputbox">
+            <button class="btn check" id="checking">Check!</button>
+        </section>
+        <section class="right">
+            <p class="guess">Start guessing...</p>
+            <p class="scoring">💯 Score: <span id="score">20</span></p>
+            <p class="highscoring">🏅 Highscore: <span id="highscore">0</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
